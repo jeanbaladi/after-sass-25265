@@ -1,0 +1,7 @@
+1)Instalacion 
+2)@Import
+3)Nesting
+4)variables
+5)mixin
+6)each
+5)condicionales
