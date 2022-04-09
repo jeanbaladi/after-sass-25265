@@ -1,0 +1,10 @@
+$ancho : 15px;
+@if($ancho != 15px ){
+    .condicional {
+        color: blue;
+    }
+}@else{
+    .condicional {
+        color: red;
+    }
+}

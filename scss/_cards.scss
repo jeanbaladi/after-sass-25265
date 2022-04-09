@@ -1,0 +1,14 @@
+@import "_mixins.scss";
+
+.card {
+    @include cards;
+    .card-img{
+        @include cards-img;
+    }   
+    .card-title{
+        @include cards-title;
+    } 
+    .card-content{
+        @include cards-content;
+    }
+}

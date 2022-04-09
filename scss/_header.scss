@@ -1,0 +1,36 @@
+@import "_variables.scss";
+header {
+    nav {
+        height: 80px;
+        ul {
+            display: flex;
+            background-color: $black-color;
+            justify-content: space-around;
+            li{
+                list-style-type: none;
+                a{
+                    color: $white-color;
+                    text-decoration: none;
+                    font-size: ;
+                    &:hover {
+                        color: red;
+                    }
+                    @media (max-width: 800px){
+                        &:hover {
+                            color:blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    h1 {
+        width: 100vw;
+        max-width: 100%;
+        height: calc(100vh - 80px);
+        background-color: $aquamarine-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
