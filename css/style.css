@@ -8,8 +8,7 @@ header nav {
       list-style-type: none; }
       header nav ul li a {
         color: white;
-        text-decoration: none;
-        font-size: 3rem; }
+        text-decoration: none; }
         header nav ul li a:hover {
           color: red; }
         @media (max-width: 800px) {
